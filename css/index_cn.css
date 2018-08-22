@@ -7666,6 +7666,7 @@ html.mm-opening .mm-menu.mm-offcanvas.mm-front, html.mm-opening .mm-menu.mm-offc
     text-align: right;
     width: 100%;
     margin: 0 auto;
+    height: 60px;
 }
 
 .head_nav_met_21_4 .met-nav .navlist li {
@@ -8440,7 +8441,7 @@ body.navfix {
 }
 
 body.navfix.head-top-ok {
-    padding-top: 65px;
+    padding-top: 60px;
 }
 
 .head_nav_met_21_4 .navbar {
@@ -8453,7 +8454,7 @@ body.navfix.head-top-ok {
     }
 
     body.navfix.head-top-ok {
-        padding-top: 105px;
+        padding-top: 60px;
     }
 }
 
@@ -9059,12 +9060,13 @@ html.mm-opening .mm-menu.mm-effect-menu-zoom {
 
 .popup_met_21_1 .btn-icon {
     background: #333333;
-    background:;
     color: #fff;
-    color:;
     line-height: 0.2rem;
 }
 
+.popup_met_21_1 .btn-icon a {
+    color: #fff;
+}
 .foot-fix {
     position: fixed;
     right: 10px;
@@ -9088,7 +9090,9 @@ html.mm-opening .mm-menu.mm-effect-menu-zoom {
     transition: all 0.26s ease-out;
     opacity: .8;
 }
-
+.popup_met_21_1 .btn-icon:hover a{
+    color:#333;
+}
 .noTips {
     -webkit-transition: all 0.26s ease-out;
     -moz-transition: all 0.26s ease-out;
