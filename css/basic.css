@@ -7,8 +7,37 @@ html {
     -webkit-text-size-adjust: 100%
 }
 
-body {
-    margin: 0
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td {
+    margin: 0;
+    padding: 0;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+fieldset, img {
+    border: 0;
+}
+address, caption, cite, code, dfn, em, strong, th, var {
+    font-style: normal;
+    font-weight: normal;
+}
+
+ol, ul {
+    list-style: none;
+}
+caption, th {
+    text-align: left;
+}
+/*h1, h2, h3, h4, h5, h6 {
+    font-size:100%;
+    font-weight:normal;
+}*/
+q:before, q:after {
+    content: '';
+}
+abbr, acronym {
+    border: 0;
 }
 
 article, aside, details, figcaption, figure, footer, header, main, menu, nav, section, summary {
@@ -693,7 +722,7 @@ pre code {
     margin-right: auto;
     margin-left: auto;
     padding-right: .9375rem;
-    padding-left: .9375rem
+    padding-left: .9375rem;
 }
 
 .container::after {
@@ -702,35 +731,35 @@ pre code {
     content: ''
 }
 
-@media (min-width: 480px) {
-    .container {
-        width: 606px
-    }
-}
+/*@media (min-width: 480px) {*/
+    /*.container {*/
+        /*width: 606px*/
+    /*}*/
+/*}*/
 
-@media (min-width: 768px) {
-    .container {
-        width: 750px
-    }
-}
+/*@media (min-width: 768px) {*/
+    /*.container {*/
+        /*width: 750px*/
+    /*}*/
+/*}*/
 
-@media (min-width: 992px) {
-    .container {
-        width: 970px
-    }
-}
+/*@media (min-width: 992px) {*/
+    /*.container {*/
+        /*width: 970px*/
+    /*}*/
+/*}*/
 
-@media (min-width: 1200px) {
-    .container {
-        width: 1170px
-    }
-}
+/*@media (min-width: 1200px) {*/
+    /*.container {*/
+        /*width: 1170px*/
+    /*}*/
+/*}*/
 
-@media (min-width: 1600px) {
-    .container {
-        width: 1310px
-    }
-}
+/*@media (min-width: 1600px) {*/
+    /*.container {*/
+        /*width: 1310px*/
+    /*}*/
+/*}*/
 
 .container-fluid {
     margin-right: auto;
@@ -6709,11 +6738,11 @@ pre {
     border-radius: .215rem
 }
 
-@media (min-width: 1600px) {
-    .container {
-        width: 1310px
-    }
-}
+/*@media (min-width: 1600px) {*/
+    /*.container {*/
+        /*width: 1310px*/
+    /*}*/
+/*}*/
 
 .row.no-space {
     margin-right: 0;

@@ -14,6 +14,12 @@ $(document).ready(function(){
             $('.met-scroll-top').addClass('hide');
         }
     });
+    $('.product-class li').on('click', function () {
+        $('.tabcon').addClass('hide');
+        $('.product-class li').removeClass('active');
+        $('#' + $(this).attr('name')).removeClass('hide');
+        $(this).addClass('active');
+    })
 });
 
 
